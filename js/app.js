@@ -59,7 +59,7 @@ $(document).ready(function() {
             alert("Unable to load Seattle Traffic Cam dataset");
     })
         .always(function() {
-
+            $('#ajax-loader').fadeOut();
         });
 
     //This method allows the user to use the search bar to filter
